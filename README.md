@@ -12,7 +12,9 @@ Bower is optimized for the front-end. If multiple packages depend on a package -
 Install Bower
 Bower is a command line utility. Install it with npm.
 
-npm install -g bower
+
+## npm install -g bower
+
 Bower requires node, npm and git.
 
 Latest release: bower version
