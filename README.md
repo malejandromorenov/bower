@@ -1,4 +1,5 @@
-Introduction Bower
+# Bower
+## Introduction Bower
 
 Web sites are made of lots of things — frameworks, libraries, assets, and utilities. Bower manages all these things for you.
 
@@ -9,11 +10,11 @@ Bower can manage components that contain HTML, CSS, JavaScript, fonts or even im
 To get started, Bower works by fetching and installing packages from all over, taking care of hunting, finding, downloading, and saving the stuff you’re looking for. Bower keeps track of these packages in a manifest file, bower.json. How you use packages is up to you. Bower provides hooks to facilitate using packages in your tools and workflows.
 Bower is optimized for the front-end. If multiple packages depend on a package - jQuery for example - Bower will download jQuery just once. This is known as a flat dependency graph and it helps reduce page load.
 
-Install Bower
+# Install Bower
 Bower is a command line utility. Install it with npm.
-
+```sh
 npm install -g bower
-
+```
 Bower requires node, npm and git.
 
 Latest release: bower version
@@ -37,10 +38,11 @@ bower install desandro/masonry
 bower install git://github.com/user/package.git
 - URL
 bower install http://example.com/script.js
-Search packages
+
+# Search packages
 Search Bower packages and find the registered package names for your favorite projects.
 
-Save packages
+# Save packages
 Create a bower.json file for your package with bower init.
 
 Then save new dependencies to your bower.json with bower install PACKAGE --save
