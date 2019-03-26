@@ -50,5 +50,7 @@ Then save new dependencies to your bower.json with bower install PACKAGE --save
 - Use packages
 How you use packages is up to you. We recommend you use Bower together with Grunt, RequireJS, Yeoman, and lots of other tools or build your own workflow with the API. You can also use the installed packages directly, like this, in the case of jquery:
 
+```java
 <script src="bower_components/jquery/dist/jquery.min.js">
 </script>
+```
